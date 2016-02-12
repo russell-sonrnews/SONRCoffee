@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "SONRCoffee"
+  },
+  "hostingPlanName": {
+    "value": "Default1"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Shared"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "sonrcoffee"
+  },
+  "serverLocation": {
+    "value": "West US"
+  },
+  "administratorLogin": {
+    "value": "sonrcoffeesa"
+  },
+  "administratorLoginPassword": {
+    "value": "S0nrS0nr"
+  },
+  "databaseName": {
+    "value": "SONRCoffee_db"
+  }
+}
