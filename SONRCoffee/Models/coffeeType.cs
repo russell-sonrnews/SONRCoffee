@@ -7,7 +7,7 @@ namespace SONRCoffee.Models
 {
     public class coffeeType
     {
-        public int id { get; set; }
-        public int name { get; set; }
+        public int CoffeeTypeId { get; set; }
+        public int Name { get; set; }
     }
 }

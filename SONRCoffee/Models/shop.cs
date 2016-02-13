@@ -7,8 +7,7 @@ namespace SONRCoffee.Models
 {
     public class shop
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        
+        public int ShopId { get; set; }
+        public string Name { get; set; }
     }
 }

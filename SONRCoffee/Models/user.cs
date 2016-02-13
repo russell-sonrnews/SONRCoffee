@@ -7,10 +7,10 @@ namespace SONRCoffee.Models
 {
     public class user
     {
-        public int id { get; set; }
-        public string userName { get; set; }
-        public string name { get; set; }
-        public string status { get; set; }
-        public string deviceId { get; set; }
+        public int UserId { get; set; }
+        public string UserName { get; set; }
+        public string Name { get; set; }
+        public string Status { get; set; }
+        public string DeviceId { get; set; }
     }
 }

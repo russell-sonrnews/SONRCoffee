@@ -7,8 +7,15 @@ namespace SONRCoffee.Models
 {
     public class defaultOrder
     {
-        public int userId { get; set; }
-        public string coffeeType { get; set; }
-        public string options { get; set; }
+        public int DefaultOrderId { get; set; }
+
+        //foreign keys
+        public int UserId { get; set; }
+        public int CoffeeTypeId { get; set; }
+
+        //foreign objects
+        public user User { get; set; }
+        public coffeeType CoffeeType { get; set; }
+        public List<option> defaultOptions { get; set; }
     }
 }

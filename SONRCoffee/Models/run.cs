@@ -7,10 +7,17 @@ namespace SONRCoffee.Models
 {
     public class run
     {
-        public int id { get; set; }
-        public int runnerId { get; set; }
-        public DateTime createdTime { get; set; }
-        public DateTime deadline { get; set; }
-        public int shopID { get; set; }
+        public int RunId { get; set; }
+        public DateTime CreatedTime { get; set; }
+        public DateTime Deadline { get; set; }
+
+        //foreign keys
+        public int ShopId { get; set; }
+        public int RunnerId { get; set; }
+
+        //foreign objects
+        public List<order> orders { get; set; }
+        public shop Shop { get; set; }
+        public user Runner { get; set; }
     }
 }
