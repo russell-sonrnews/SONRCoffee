@@ -5,6 +5,9 @@ using System.Web;
 
 namespace SONRCoffee.Models
 {
+    /// <summary>
+    /// basic coffee type: latte, cappucino, etc.
+    /// </summary>
     public class coffeeType
     {
         public int CoffeeTypeId { get; set; }

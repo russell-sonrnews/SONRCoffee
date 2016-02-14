@@ -10,27 +10,23 @@ using Newtonsoft.Json;
 namespace SONRCoffee.Models
 {
     /// <summary>
-    /// an actual order put in for a run, origin can be automatic or manual, manual order will override automatic ones
+    /// class to denote an order that is wanted before a run is declared
     /// </summary>
-    public class order
+    public class standingOrder
     {
-        public int OrderId { get; set; }
-        public string OrderOrigin { get; set; }
-        public DateTime OrderTime { get; set; }
+        public int StandingOrderId { get; set; }
+        public DateTime StandingOrderTime { get; set; }
 
-        public order()
+        public standingOrder()
         {
-            OrderOrigin = "automatic";
-            OrderTime = DateTime.Now;
+            StandingOrderTime = DateTime.Now;
         }
 
         //foreign keys
-        public int RunId { get; set; }
         public int UserId { get; set; }
         public int CoffeeTypeId { get; set; }
 
         //foreign objects
-        public virtual run Run { get; set; }
         public virtual user User { get; set; }
         public virtual coffeeType CoffeeType { get; set; }
         public virtual List<option> Options { get; set; }

@@ -135,21 +135,32 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\RunAPI.cs" />
-    <Compile Include="API\ShopAPI.cs" />
-    <Compile Include="API\UserAPI.cs" />
+    <Compile Include="API\OrderController.cs" />
+    <Compile Include="API\RunController.cs" />
+    <Compile Include="API\ShopController.cs" />
+    <Compile Include="API\UserController.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\UserController.cs" />
-    <Compile Include="Data\SONRCoffeeDbContext.cs" />
+    <Compile Include="Controllers\Data\SONRCoffeeDbContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201602142027321_StandingOrderTypeCreated.cs" />
+    <Compile Include="Migrations\201602142027321_StandingOrderTypeCreated.Designer.cs">
+      <DependentUpon>201602142027321_StandingOrderTypeCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201602142030113_StandingOrder2ndTry.cs" />
+    <Compile Include="Migrations\201602142030113_StandingOrder2ndTry.Designer.cs">
+      <DependentUpon>201602142030113_StandingOrder2ndTry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\coffeeType.cs" />
     <Compile Include="Models\defaultOrder.cs" />
     <Compile Include="Models\option.cs" />
     <Compile Include="Models\order.cs" />
     <Compile Include="Models\run.cs" />
     <Compile Include="Models\shop.cs" />
+    <Compile Include="Models\standingOrder.cs" />
     <Compile Include="Models\user.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SONRCoffeeDBContext.Context.cs">
@@ -183,6 +194,14 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201602142027321_StandingOrderTypeCreated.resx">
+      <DependentUpon>201602142027321_StandingOrderTypeCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201602142030113_StandingOrder2ndTry.resx">
+      <DependentUpon>201602142030113_StandingOrder2ndTry.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -5,6 +5,9 @@ using System.Web;
 
 namespace SONRCoffee.Models
 {
+    /// <summary>
+    /// options for a coffee: soy milk, extra shot, etc.
+    /// </summary>
     public class option
     {
         public int OptionId { get; set; }

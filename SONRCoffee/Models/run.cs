@@ -5,6 +5,9 @@ using System.Web;
 
 namespace SONRCoffee.Models
 {
+    /// <summary>
+    /// an intended visit to a coffee shop by a user
+    /// </summary>
     public class run
     {
         public int RunId { get; set; }
