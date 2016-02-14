@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SONRCoffee" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Russell\\Documents\\Visual\ Studio\ 2015\\Projects\\SONRCoffee\\SONRCoffee\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Russell\\Documents\\Visual\ Studio\ 2015\\Projects\\SONRCoffee\\SONRCoffee\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SONRCoffeeDbContext-Web.config Connection String" description="" value="Data Source=tcp:sonrcoffee.database.windows.net,1433;Initial Catalog=SONRCoffee_db;User Id=sonrcoffeesa@sonrcoffee;Password=S0nrS0nr" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Russell\\Documents\\Visual\ Studio\ 2015\\Projects\\SONRCoffee\\SONRCoffee\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SONRCoffeeDbContext']/@connectionString" />
+  </parameter>
+</parameters>

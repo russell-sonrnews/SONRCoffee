@@ -5,12 +5,21 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity;
+using Newtonsoft.Json;
 
 namespace SONRCoffee.Models
 {
     public class order
     {
         public int OrderId { get; set; }
+        public string OrderOrigin { get; set; }
+        public DateTime OrderTime { get; set; }
+
+        public order()
+        {
+            OrderOrigin = "default";
+            OrderTime = DateTime.Now;
+        }
 
         //foreign keys
         public int RunId { get; set; }

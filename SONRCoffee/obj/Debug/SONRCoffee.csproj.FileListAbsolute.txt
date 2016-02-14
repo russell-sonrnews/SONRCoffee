@@ -40,6 +40,5 @@ c:\users\russell\documents\visual studio 2015\Projects\SONRCoffee\SONRCoffee\bin
 c:\users\russell\documents\visual studio 2015\Projects\SONRCoffee\SONRCoffee\bin\System.Net.Http.Formatting.xml
 c:\users\russell\documents\visual studio 2015\Projects\SONRCoffee\SONRCoffee\bin\System.Web.Http.xml
 c:\users\russell\documents\visual studio 2015\Projects\SONRCoffee\SONRCoffee\bin\System.Web.Http.WebHost.xml
-c:\users\russell\documents\visual studio 2015\Projects\SONRCoffee\SONRCoffee\obj\Debug\SONRCoffee.csprojResolveAssemblyReference.cache
 c:\users\russell\documents\visual studio 2015\Projects\SONRCoffee\SONRCoffee\obj\Debug\SONRCoffee.dll
 c:\users\russell\documents\visual studio 2015\Projects\SONRCoffee\SONRCoffee\obj\Debug\SONRCoffee.pdb
