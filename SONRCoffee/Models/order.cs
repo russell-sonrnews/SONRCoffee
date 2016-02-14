@@ -18,9 +18,9 @@ namespace SONRCoffee.Models
         public int CoffeeTypeId { get; set; }
 
         //foreign objects
-        public run Run { get; set; }
-        public user User { get; set; }
-        public coffeeType CoffeeType { get; set; }
-        public List<option> Options { get; set; }
+        public virtual run Run { get; set; }
+        public virtual user User { get; set; }
+        public virtual coffeeType CoffeeType { get; set; }
+        public virtual List<option> Options { get; set; }
     }
 }

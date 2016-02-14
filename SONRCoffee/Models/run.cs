@@ -16,8 +16,8 @@ namespace SONRCoffee.Models
         public int RunnerId { get; set; }
 
         //foreign objects
-        public List<order> orders { get; set; }
-        public shop Shop { get; set; }
-        public user Runner { get; set; }
+        public virtual List<order> orders { get; set; }
+        public virtual shop Shop { get; set; }
+        public virtual user Runner { get; set; }
     }
 }

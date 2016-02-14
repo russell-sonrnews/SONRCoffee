@@ -10,6 +10,8 @@ namespace SONRCoffee.Data
 {
     public class SONRCoffeeDbContext : DbContext
     {
+        public SONRCoffeeDbContext() : base("name=SONRCoffeeDbContext") {}
+
         public DbSet<Models.shop> shops { get; set; }
         public DbSet<Models.coffeeType> coffeeTypes { get; set; }
         public DbSet<Models.run> runs { get; set; }
